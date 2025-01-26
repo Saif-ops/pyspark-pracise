@@ -1,6 +1,8 @@
 import pytest
+import sys
 from pyspark.sql import SparkSession
 from second_no_employee import second_highest_salary
+
 
 @pytest.fixture(scope='module')
 def spark_create():
